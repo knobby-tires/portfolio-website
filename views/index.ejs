@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= name %> - Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="split-layout">
+        <!-- Static left column -->
+        <div class="static-left">
+            <div class="profile-section">
+                <h1 class="name"><%= name %></h1>
+                <p class="title">Software Developer</p>
+            </div>
+            <nav class="social-links">
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+                <a href="mailto:your.email@example.com">Email</a>
+            </nav>
+        </div>
+
+        <!-- Scrollable right content -->
+        <div class="scrollable-right">
+            <section class="content-section" id="about">
+                <h2 class="section-title">About Me</h2>
+                <p>
+                    Your introduction goes here. Make it compelling and relevant to your field.
+                </p>
+            </section>
+
+            <section class="content-section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">Node.js</div>
+                    <div class="skill-item">React</div>
+                    <div class="skill-item">Git</div>
+                    <div class="skill-item">Docker</div>
+                </div>
+            </section>
+
+            <section class="content-section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Project Name</h3>
+                        <p>Project description and technologies used.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Another Project</h3>
+                        <p>Project description and technologies used.</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
