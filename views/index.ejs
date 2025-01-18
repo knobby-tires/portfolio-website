@@ -15,9 +15,15 @@
                 <p class="title">Software Developer</p>
             </div>
             <nav class="social-links">
-                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
-                <a href="mailto:your.email@example.com">Email</a>
+                <a href="https://github.com/knobby-tires" target="_blank" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="mailto:jacobmetz@proton.me" aria-label="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
             </nav>
         </div>
 
@@ -25,36 +31,100 @@
         <div class="scrollable-right">
             <section class="content-section" id="about">
                 <h2 class="section-title">About Me</h2>
-                <p>
-                    Your introduction goes here. Make it compelling and relevant to your field.
+                <p>Software developer specializing in Unix-like systems including Linux and FreeBSD. Experienced in system administration, container orchestration with Kubernetes, and full stack development.
+                    Currently expanding knowledge in systems programming, software security, and general development. 
                 </p>
-            </section>
-
-            <section class="content-section" id="skills">
-                <h2 class="section-title">Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-item">JavaScript</div>
-                    <div class="skill-item">Python</div>
-                    <div class="skill-item">Node.js</div>
-                    <div class="skill-item">React</div>
-                    <div class="skill-item">Git</div>
-                    <div class="skill-item">Docker</div>
-                </div>
             </section>
 
             <section class="content-section" id="projects">
                 <h2 class="section-title">Projects</h2>
                 <div class="projects-grid">
                     <article class="project-card">
-                        <h3>Project Name</h3>
-                        <p>Project description and technologies used.</p>
+                        <h3>bfc.rs</h3>
+                        <p>I wrote a BrainFuck compiler in rust. </p>
                     </article>
                     <article class="project-card">
-                        <h3>Another Project</h3>
-                        <p>Project description and technologies used.</p>
+                        <h3>Oxide</h3>
+                        <p>I created a virtual machine hypervisor in rust.</p>
                     </article>
                 </div>
             </section>
+
+            <section class="content-section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-section">
+                  <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-list">
+                      <span class="skill-tag">JavaScript</span>
+                      <span class="skill-tag">Python</span>
+                      <span class="skill-tag">HTML5</span>
+                      <span class="skill-tag">CSS3</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-list">
+                      <span class="skill-tag">React</span>
+                      <span class="skill-tag">Node.js</span>
+                      <span class="skill-tag">Express</span>
+                      <span class="skill-tag">TailwindCSS</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-list">
+                      <span class="skill-tag">Git</span>
+                      <span class="skill-tag">Docker</span>
+                      <span class="skill-tag">AWS</span>
+                      <span class="skill-tag">MongoDB</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            <section class="content-section" id="blog">
+                <h2 class="section-title">Blog Posts</h2>
+                <div class="blog-grid">
+                  <article class="blog-card">
+                    <img src="/api/placeholder/400/200" alt="Blog post image" class="blog-image">
+                    <div class="blog-content">
+                      <div class="blog-date">January 15, 2025</div>
+                      <h3 class="blog-title">Getting Started with Modern Web Development</h3>
+                      <p class="blog-excerpt">
+                        An exploration of the latest tools and technologies that are shaping the future of web development...
+                      </p>
+                      <a href="/blog/getting-started" class="read-more">Read More →</a>
+                    </div>
+                  </article>
+              
+                  <article class="blog-card">
+                    <img src="/api/placeholder/400/200" alt="Blog post image" class="blog-image">
+                    <div class="blog-content">
+                      <div class="blog-date">January 10, 2025</div>
+                      <h3 class="blog-title">The Art of Clean Code</h3>
+                      <p class="blog-excerpt">
+                        Discover the principles and practices that lead to maintainable and elegant code...
+                      </p>
+                      <a href="/blog/clean-code" class="read-more">Read More →</a>
+                    </div>
+                  </article>
+              
+                  <article class="blog-card">
+                    <img src="/api/placeholder/400/200" alt="Blog post image" class="blog-image">
+                    <div class="blog-content">
+                      <div class="blog-date">January 5, 2025</div>
+                      <h3 class="blog-title">Optimizing Website Performance</h3>
+                      <p class="blog-excerpt">
+                        Learn the key strategies to make your websites faster and more efficient...
+                      </p>
+                      <a href="/blog/optimization" class="read-more">Read More →</a>
+                    </div>
+                  </article>
+                </div>
+              </section>
         </div>
     </div>
 </body>

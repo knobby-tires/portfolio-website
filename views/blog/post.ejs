@@ -1,0 +1,36 @@
+<!-- views/blog/post.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= name %> - <%= post.title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="split-layout">
+        <!-- Keep your existing static left column -->
+        <div class="static-left">
+            <div class="profile-section">
+                <h1 class="name"><%= name %></h1>
+                <p class="title">Software Developer</p>
+            </div>
+            <nav class="social-links">
+                <!-- Your existing social links -->
+            </nav>
+        </div>
+
+        <!-- Blog post content -->
+        <div class="scrollable-right">
+            <article class="blog-post">
+                <h1 class="blog-post-title"><%= post.title %></h1>
+                <div class="blog-post-date"><%= post.date %></div>
+                <div class="blog-post-content">
+                    <%- post.content %>
+                </div>
+                <a href="/blog" class="back-to-blog">← Back to Blog</a>
+            </article>
+        </div>
+    </div>
+</body>
+</html>
